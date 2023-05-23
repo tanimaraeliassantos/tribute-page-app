@@ -1,5 +1,46 @@
+body {
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #eef0f2;
+}
+
 img {
     width: 300px;
+    max-width:500px;
     height: 400px;
     border-radius: 45%;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#img-caption {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+ul {
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+blockquote {
+    font-style: italic;
+    text-align: left;
+    font-size: 1rem;
+    max-width: 500px;
+    margin: auto;
 }
